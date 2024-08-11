@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://portal-grq6.onrender.com"
