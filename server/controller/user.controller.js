@@ -75,12 +75,12 @@ exports.signup = async (req, res) => {
     approved === "Instructor" ? (approved = false) : (approved = true)
     
     // Create the Additional Profile For User
-    const profileDetails = await Profile.create({
-        gender: null,
-        dateOfBirth: null,
-        about: null,
-        contactNumber: null,
-    })
+    // const profileDetails = await Profile.create({
+    //     gender: null,
+    //     dateOfBirth: null,
+    //     about: null,
+    //     contactNumber: null,
+    // })
     const user = await User.create({
       firstName,
       email,
@@ -88,7 +88,7 @@ exports.signup = async (req, res) => {
       password: hashedPassword,
       // accountType: accountType,
       approved: approved,
-      additionalDetails: profileDetails._id,
+      // additionalDetails: profileDetails._id,
       image: "",
     })
 
