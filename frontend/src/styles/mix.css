@@ -18,7 +18,7 @@ section .form_data{
     max-width: 550px;
     margin: 25px auto;
     padding: 35px 10px;
-    box-shadow: 0 0 15px -10px #2d3748;
+    box-shadow: 0 0 15px -10px #ea0000;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ section .form_data{
 
 .form_data h1{
     font-size: 34px;
-    color: #2a4365;
+    color: #ea0000;
 }
 
 .form_data p{
